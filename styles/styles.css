@@ -21,6 +21,9 @@ img {
 p {
     padding: 10px;
 }
+p {
+    color: red
+}
 main {
     max-width: 840px;
 }
@@ -46,4 +49,6 @@ p { padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: cent
+    text-align: center;
+}
+   
