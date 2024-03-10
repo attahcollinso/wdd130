@@ -22,13 +22,13 @@ body{
 }
 
 body {
-    f______: var(--Rubic-mono-one);
+    f______: var(--serif);
     m______: ______;
     p______: ______;
 }
 
-h1, h2, h3, h4 {
-    font-family: var(--prosto-one);
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--serif);
     color: var(--primary-color);
 }
 
