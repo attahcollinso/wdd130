@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/?preview.text=this%20is%20great&query=mo');
+@import url(https://fonts.google.com/specimen/Anton?preview.text=hello%20there);
 
 body{
     font-family: var(--paragrapg-font);
@@ -22,7 +22,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--serif);
+    font-family: var(--Anton);
     color: var(--primary-color);
 }
 
