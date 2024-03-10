@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.google.com/?preview.text=this%20is%20great&query=mo');
 
 body{
     font-family: var(--paragrapg-font);
@@ -19,12 +19,6 @@ body{
     --nav-link-color: #F2AF29;
     --nav-hover-link-color: #BA3B46;
     --nav-hover-backgroung-color:#AA8F66;
-}
-
-body {
-    f______: var(--serif);
-    m______: ______;
-    p______: ______;
 }
 
 h1, h2, h3, h4, h5, h6 {
