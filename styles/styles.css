@@ -1,11 +1,10 @@
-/* css rule for universal selector*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* Class  selectors */
+
+/* Class selectors */
 
 .box {
     margin: 1rem;
