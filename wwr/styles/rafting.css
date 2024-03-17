@@ -1,0 +1,22 @@
+@import url();
+
+:root {
+    --primary-color: #9E0031;
+    --secondary-color: #ED9B40;
+    --accent1-color: #61C9A8;
+    --accent2-color: #FFEEDB;
+
+    --heading-font: '_____', serif;
+    --paragraph-font: '_____', serif;
+
+    --nav-backgroung-color: #61C9A8;
+    --nav-link-color: #F2AF29;
+    --nav-hover-link-color: #BA3B46;
+    --nav-hover-backgroung-color:#AA8F66;
+}
+
+.hero img {
+    display: block;
+    width: 100;
+    height: auto;
+}
