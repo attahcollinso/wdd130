@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display);
 
+body{
+    font-family: var(--paragrapg-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 :root {
     --primary-color: #9E0031;
     --secondary-color: #ED9B40;
@@ -15,6 +21,41 @@
     --nav-hover-backgroung-color:#AA8F66;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Anton);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-backgroung-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-backgroung-color);
+}
 .hero img {
     display: block;
     width: 100;
