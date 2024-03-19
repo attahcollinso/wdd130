@@ -15,30 +15,37 @@
     --nav-hover-backgroung-color:#AA8F66;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Anton);
-    color: var(--primary-color);
-}
-
-.hero img {
+.hero img{
     display: block;
     width: 100%;
     height: auto;
-} 
-
-h1 {
-    position: absolute;
-}
-
-article {
-    position: absolute;
-}
-
-article img{
-    float: right;
 }
 
 div {
     position: relative;
 }
 
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    color: #F2AF29;
+}
+
+div p {
+    color: red;
+}
+
+article {
+    max-width: 840px;
+}
+
+article {
+    position: absolute;
+    top: 150px;
+    left: 80%;
+    width: 200px;
+    height: auto;
+    float: right;
+}
+  
