@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display);
+
+:root {
+    --primary-color: #9E0031;
+    --secondary-color: #ED9B40;
+    --accent1-color: #61C9A8;
+    --accent2-color: #FFEEDB;
+
+    --heading-font: '_____', serif;
+    --paragraph-font: '_____', serif;
+
+    --nav-backgroung-color: #61C9A8;
+    --nav-link-color: #F2AF29;
+    --nav-hover-link-color: #BA3B46;
+    --nav-hover-backgroung-color:#AA8F66;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Anton);
+    color: var(--primary-color);
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    color: #F2AF29;
+}
+
+div p {
+    color: red;
+}
+
+article {
+    max-width: 840px;
+}
+
+article {
+    position: absolute;
+    top: 200px;
+    left: 80%;
+    width: 250px;
+    height: auto;
+    float: right;
+}
