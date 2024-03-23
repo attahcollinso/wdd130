@@ -44,13 +44,13 @@ p {
     padding: 10px;
 }
 
-p {
+p{
     color: red
 }
 
-/* main {
-    max-width: 840px;
-} */
+main {
+    font-family: 'Roboto', sans-serif;
+}
 
 aside {
     position: relative;
@@ -118,7 +118,7 @@ nav a {
 main {
     grid-column: 2/3;
     margin: 1rem;
-}
+} 
 
 aside {
     width: 20rem;
