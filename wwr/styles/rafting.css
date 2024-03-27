@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 
+
 div {
     position: relative;
 }
@@ -43,7 +44,7 @@ div p {
 
 article {
     max-width: 840px;
-}
+} 
 
 article {
     position: absolute;
@@ -52,4 +53,39 @@ article {
     width: 250px;
     height: auto;
     float: right;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.history h2 {
+    display: flex;
+    justify-content: center;    
+}
+
+.history p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adventure h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.adventure img {
+    max-width: auto;
+    max-height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
