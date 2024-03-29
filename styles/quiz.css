@@ -4,10 +4,10 @@ textarea {
     1.4em/1.5 "hangwriting",
     cursive,
     sans-serif;
-    padding: 0 10px;
+    padding: 0 0 10px;
     margin: 0;
     width: 60%;
-    background: none;
+    background: grey;
 }
 
 input,
@@ -16,9 +16,9 @@ select {
     1.4em/1.5 "hangwriting",
     normal,
     sans-serif;
-    padding: 0 10px;
+    padding:0 0px;
     margin: 0;
     width: 60%;
-    background: none;
+    background: grey;
 }
   
