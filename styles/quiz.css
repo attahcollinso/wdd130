@@ -9,3 +9,16 @@ textarea {
     width: 60%;
     background: none;
 }
+
+input,
+select {
+    font:
+    1.4em/1.5 "hangwriting",
+    normal,
+    sans-serif;
+    padding: 0 10px;
+    margin: 0;
+    width: 60%;
+    background: none;
+}
+  
