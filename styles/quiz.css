@@ -1,24 +1,50 @@
 input,
 textarea {
     font:
-    1.4em/1.5 "hangwriting",
+    1.5em/1.5 "hangwriting",
     cursive,
     sans-serif;
     padding: 0 0 10px;
     margin: 0;
-    width: 60%;
-    background: grey;
+    width: 100%;
+    background: none;
 }
 
 input,
 select {
     font:
-    1.4em/1.5 "hangwriting",
+    1.5em/1.5 "hangwriting",
     normal,
     sans-serif;
     padding:0 0px;
     margin: 0;
-    width: 60%;
-    background: grey;
+    width: 100%;
+    background: none;
 }
+
+blockquote {
+    margin: 0;
+  }
   
+  blockquote p {
+    padding: 15px;
+    background: grey;
+    border-radius: 5px;
+  }
+  
+  blockquote p::before {
+    content: '\201C';
+  }
+  
+  blockquote p::after {
+    content: '\201D';
+  }
+
+ button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    background-color: blue;
+ }
