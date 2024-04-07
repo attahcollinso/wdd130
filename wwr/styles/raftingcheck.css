@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css?family=Onest&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Onest&display=swap");
 
 :root {
     --primary-color: #315961 ;
@@ -20,7 +20,7 @@ body {
     max-width: 960px;
     padding: 20px;
     margin: auto;
- 
+    /*background-color: var(--primary-color);*/
 }
 
 header {
@@ -80,16 +80,15 @@ p {
 
 .hero h1 {
     position: absolute;
-    color: var(--secondary-color); 
+    color: var(--secondary-color);
     top: 10px;
     left: 300px;
-    color: orange;
 }
 
 .hero article {
     position: absolute;
     color: var(--secondary-color);
-    top: 150px;
+    top: 230px;
     background-color: rgba(21,71,52,0.3)
 }
 
@@ -116,10 +115,7 @@ p {
 
 .hero article p {
   color: red;
-  font: bolder;
-  font-size: larger;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+}
 
 .adventure section img{
   align-items: center;
@@ -202,6 +198,7 @@ footer nav {
     padding-right: 20px;
 }
 
+/* Style for the "Meet Our Team" section */
 .team-section {
     margin-bottom: 40px;
 }
@@ -216,16 +213,16 @@ footer nav {
 }
 
 .team-members img {
-    width: 100px; 
+    width: 100px; /* or a specific pixel width */
 }
 
-
+/* Style for the company information column */
 .contact-details {
     flex: 1;
     padding-right: 20px;
 }
 
-
+/* Style for the contact form column */
 .contact-form {
     flex: 2;
     padding-left: 20px;
@@ -233,9 +230,9 @@ footer nav {
 
 #googleMap {
     width: 100%;
-    height: 300px;
+    height: 300px; /* Set desired height */
     margin-top: 20px;
-    border: none;
+    border: none; /* Remove any borders */
 }
 
 .contact-form {
@@ -318,7 +315,7 @@ footer nav {
         }
 
         .header-image h1 {
-            color: orange;
+            color:  #F2AF29;
             font-size: 3em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
