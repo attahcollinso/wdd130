@@ -150,8 +150,8 @@ h2 {
 }
 
 section img {
-    max-width: 190px;
-    height: auto;
+    max-width: 190px; 
+    height: 150px; 
     margin-left: 1px;
 }
 
@@ -159,7 +159,6 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: var(--nav-background-color);
-
 }
 
 footer p {
