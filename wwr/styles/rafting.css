@@ -108,6 +108,7 @@ p {
 
 .hero article h2 {
     color: orange;
+    text-align: center;
 }
 
 .hero article p {
