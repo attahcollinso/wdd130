@@ -88,10 +88,6 @@ p {
     color: orange;
 }
 
-.hero h1 {
-    font-weight: 200px;
-}
-
 .hero article {
     position: absolute;
     color: var(--secondary-color);
