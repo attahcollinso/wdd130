@@ -88,6 +88,10 @@ p {
     color: orange;
 }
 
+.hero h1 {
+    font-weight: 200px;
+}
+
 .hero article {
     position: absolute;
     color: var(--secondary-color);
@@ -208,6 +212,10 @@ footer nav {
     margin-bottom: 40px;
 }
 
+.team-section h1 {
+    color: orange;
+}
+
 .team-members {
     display: flex;
     justify-content: space-between;
@@ -227,10 +235,18 @@ footer nav {
     padding-right: 20px;
 }
 
+.contact-details h2 {
+    color: orange;
+}
+
 
 .contact-form {
     flex: 2;
     padding-left: 20px;
+}
+
+.contact-form h2 {
+    color: orange;
 }
 
 #googleMap {
@@ -305,9 +321,7 @@ footer nav {
     flex-basis: 48%;
 }
 
-/*index */
-
- .header-image {
+.header-image {
             width: 100%;
             height: auto;
             background-size: cover;
@@ -317,6 +331,26 @@ footer nav {
             justify-content: center;
             text-align: center;
             padding: 100px 0;
+        }
+
+.header-image {
+            position: relative;
+        }
+        
+.header-image img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        } 
+
+.header-image h1 {
+            position: absolute;
+            color: var(--secondary-color); 
+            top: 20px;
+            left: 100px;
+            color: orange;
+            text-align: center;
         }
 
         .header-image h1 {
